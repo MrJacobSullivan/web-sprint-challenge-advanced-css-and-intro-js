@@ -31,8 +31,16 @@ Accessibility is designing our websites so that they can be experienced reguardl
 Add a viewport meta tag to your HTML document's head, employ @media queries in you CSS, and use relative units when sizing in CSS.
 
 3. How would you explain the concept of a variable to someone new to programming?
+
+A variable is just a box or label that we can use to identify a piece of information. You name could be thought of as the variable that represents you.
+
 4. What is the purpose of using functions in code?
+
+A function is used to do a specific and repeatable task. Functions allow us to do the same task multiple times without the need to repeat ourselves.
+
 5. How do you access a key inside of an object inside of an array?
+
+You have to first access the object in the array using bracket syntax on the array. Then you can access the value you want by using the key of the object. Example: `array[index].key`
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
