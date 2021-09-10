@@ -116,6 +116,7 @@ h1 {
 a {
   text-decoration: none;
   color: black;
+  font-family: 'Raleway', sans-serif;
   font-size: 2.5rem;
 }
 
@@ -273,13 +274,13 @@ button:hover {
   }
 
   .artist {
-    width: 85%;
     margin-bottom: 5%;
+    width: 85%;
   }
 
   .artist img {
-    width: 90%;
     height: auto;
+    width: 90%;
   }
 
   .artist a {
@@ -289,8 +290,29 @@ button:hover {
   }
 
   .bio {
-    width: 100%;
-    margin: 0;
     font-size: 1.2rem;
+    margin: 0;
+    width: 100%;
+  }
+
+  /* Remove Hover Effects */
+
+  a:hover {
+    font-weight: normal;
+  }
+
+  img:hover {
+    opacity: 100%;
+  }
+
+  .title-container div:hover {
+    opacity: 100%;
+  }
+
+  button:hover {
+    background-color: white;
+    border: 2px solid #626262;
+    box-shadow: 2px 2px 1px #626262;
+    color: black;
   }
 }
