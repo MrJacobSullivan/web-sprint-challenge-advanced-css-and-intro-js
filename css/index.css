@@ -232,17 +232,34 @@ button:hover {
 /* Media Queries */
 
 @media (max-width: 500px) {
+  /* General Styles */
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  a {
+    font-size: 2rem;
+  }
+
   /* Header Styles */
 
   nav {
     width: 60%;
   }
 
-  nav a {
-    font-size: 2rem;
-  }
-
   nav span {
     border-left: 2px solid #626262;
+  }
+
+  /* Title Section */
+
+  .title-container div {
+    width: 100%;
+    margin-bottom: 1%;
+  }
+
+  .title-container hr {
+    margin-bottom: 4%;
   }
 }
