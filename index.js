@@ -286,8 +286,16 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/) {
-  /*Your Code Here*/
+function addArtist(arr) {
+  arr.push({
+    id: 20,
+    name: 'Jacob Sullivan',
+    years: '1995 - 2021',
+    genre: 'Web Design',
+    nationality: 'United State',
+    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates explicabo commodi, distinctio molestias cumque quos ex consectetur quae nesciunt similique sunt! Illo ex ad, error sapiente corporis autem libero facilis.',
+  })
+  return arr
 }
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
