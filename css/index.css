@@ -208,6 +208,7 @@ button:hover {
   border: 2px solid white;
   color: white;
   box-shadow: 2px 2px 1px white;
+  cursor: pointer;
 }
 
 /*Artists Section Styles */
@@ -226,4 +227,22 @@ button:hover {
 
 .artist img {
   width: 100%;
+}
+
+/* Media Queries */
+
+@media (max-width: 500px) {
+  /* Header Styles */
+
+  nav {
+    width: 60%;
+  }
+
+  nav a {
+    font-size: 2rem;
+  }
+
+  nav span {
+    border-left: 2px solid #626262;
+  }
 }
